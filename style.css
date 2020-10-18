@@ -198,3 +198,56 @@ textarea{
 .carousel .carousel-slide:nth-child(9) {
     transform: rotateY( 320deg ) translateZ( 488px );
 }
+#skills{
+    color: whitesmoke;
+    font-size: 4rem;
+    background-color: #0D052B;
+}
+#title{
+    margin-left: 30px;
+}
+li.skill-column{
+    height: 200px;
+    width: 100px;}
+#skills ul{
+color: whitesmoke;
+font-size: 3rem;
+height: 90%;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+width: 90%;
+}
+
+#skills ul li{
+    margin: 0 70px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: 155px;
+    height: 400px;
+}
+#skills ul li div{
+    background-color: #2816A3;
+    width: 100px;
+    height: 70%;
+    border-radius: 20px;
+    align-self: flex-end;
+
+
+    
+}
+#skills ul li div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: whitesmoke;
+    height: 30%;
+    font-size: 20px;
+    width: 140px;
+    border-radius: 02px;
+    background-color: #0D052B;
+}
