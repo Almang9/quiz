@@ -13,7 +13,7 @@ body{
     text-decoration: none;
     align-items: center;
 }
-ul li{
+#navigationBar li{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@ ul li{
     color: whitesmoke;
     background-color:#48227B;  
 }
-ul li a{
+#navigationBar li a{
     align-self: center;
     text-decoration: none;
     color: whitesmoke;
@@ -63,7 +63,7 @@ img{
     width: 100%;
     height: 140px;
     position: relative;
-    margin: 0 auto 40px;
+    margin: 0 auto 200px;
 }
 .carousel{
     width: 100%;
@@ -112,4 +112,39 @@ img{
 }
 .carousel .carousel-slide:nth-child(9) {
     transform: rotateY( 320deg ) translateZ( 488px );
+}
+#skills{
+    background-color: ;
+}
+li.skill-column{
+    height: 200px;
+    width: 100px;}
+#skills ul{
+display: flex;
+align-items: flex-end;
+justify-content: center;
+width: 90%;
+}
+#skills ul li{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-end;
+
+}
+#skills ul li div{
+    background-color: blue;
+    width: 70px;
+    border-radius: 20px;
+    align-self: flex-end;
+
+
+    
+}
+#skills ul li div:nth-child(2){
+    background-color: whitesmoke;
+    height: 15%;
+    font-size: 20px;
 }
