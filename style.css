@@ -149,6 +149,7 @@ textarea{
 #enviar{
     
    
+    margin: 0 auto 300px;
 }
 .carousel{
     width: 100%;
@@ -249,5 +250,33 @@ width: 90%;
     font-size: 20px;
     width: 140px;
     border-radius: 02px;
+    background-color: #0D052B;}
+#AboutMe img{
+    width: 205px;
+    height: 240px;
+    margin: 30px;
+    border-style: dashed;
+   
+    border-color: #860730;
+}
+#AboutMe{
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 30px;
     background-color: #0D052B;
+    width: 90%;
+    border-radius: 50px;
+    color: whitesmoke;
+    border-style: groove;
+    border-color: #860730;
+   
+}
+#AboutMe p{
+    width: 100%;
+    font-size: 22px;
+}
+#AboutMe h2{
+    font-size: 35px;
 }
