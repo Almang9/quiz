@@ -114,10 +114,27 @@ img{
     transform: rotateY( 320deg ) translateZ( 488px );
 }
 #AboutMe img{
-    width: 360px;
-    height: 420px;
-
+    width: 205px;
+    height: 240px;
+    margin: 30px;
+    border-style: dashed;
+   
+    border-color: #860730;
 }
-#aboutMe{
-    background-color: ;
+#AboutMe{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    background-color: #0D052B;
+    width: 90%;
+    border-radius: 50px;
+    color: whitesmoke;
+    border-style: groove;
+    border-color: #860730;
+   
+}
+#AboutMe p{
+    width: 100%;
+    font-size: 22px;
 }
