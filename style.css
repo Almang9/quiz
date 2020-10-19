@@ -20,7 +20,7 @@ ul li{
     text-decoration: none;
     box-sizing: border-box;
     height: 60px;  
-    width: 120px;
+    width: 150px;
     font-size: 1.5rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
@@ -34,6 +34,7 @@ ul li a{
 }
 #ContactButton{
     justify-self: flex-end;
+    background-color: #110949;
 }
 .link{
     display: flex;
@@ -46,4 +47,7 @@ ul li a{
     color: whitesmoke;
     font-size :2.0rem;
     letter-spacing: 4px;
+    justify-content: center;
+    align-items: center;
 }
+
